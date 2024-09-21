@@ -11,6 +11,7 @@ package-lock.json
 # OS
 .DS_Store
 Thumbs.db
+.trash/
 
 # Env
 .env
@@ -21,3 +22,10 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Obsidian
+**/.obsidian/plugins/*/*
+!data.json
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/appearance.json
